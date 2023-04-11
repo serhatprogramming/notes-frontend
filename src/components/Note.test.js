@@ -20,15 +20,15 @@ test('renders content', () => {
 
   expect(element).toBeDefined()
 
-  screen.debug(element)
+  // screen.debug(element)
 
-  screen.debug()
+  // screen.debug()
 
   expect(div).toHaveTextContent(
     'Component testing is done with react-testing-library'
   )
 
-  screen.debug(div)
+  // screen.debug(div)
 })
 
 test('clicking the button calls the event handler once', async () => {
